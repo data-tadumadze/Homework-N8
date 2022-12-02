@@ -1,0 +1,75 @@
+body {
+    padding-left: 150px;
+    padding-top: 100px;
+  }
+
+ 
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(22,1fr);
+    grid-template-rows: repeat(12,1fr);
+    gap: 20px;
+    width: 1200px;
+    height: 550px;
+    padding: 20px;
+    background-color:  #413d3d;
+  }
+
+  .box1 {
+    grid-column: span 4;
+    grid-row: span 6;
+    background-color: #f1463d;
+  }
+
+  .box2 {
+    grid-column: span 8;
+    grid-row: span 3;
+    background-color: #2cc5cf;
+  }
+
+  .box3 {
+    grid-column: span 10;
+    grid-row: span 3;
+    background-color: #d6b269;
+  }
+
+  .box4 {
+    grid-column: span 4;
+    grid-row: span 5;
+    background-color: #d6b269;
+  }
+  
+.box5 {
+    grid-column: span 10;
+    grid-row: span 5;
+    background-color: #ffffff;
+}
+
+.box6 {
+    grid-column: span 4;
+    grid-row: span 9;
+    background-color: #f1463d;
+
+}
+
+.box7 {
+    grid-column: span 4;
+    grid-row: span 6;
+    background-color: #ffffff;
+
+}
+
+.box8 {
+    grid-column: span 8;
+    grid-row: span 4;
+    background-color: #f1463d;
+
+}
+  
+.box9 {
+    grid-column: span 6;
+    grid-row: span 4;
+    background-color: #2cc5cf;
+
+}
