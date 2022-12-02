@@ -1,0 +1,154 @@
+body {
+  padding-left: 700px;
+  padding-top: 100px;
+}
+
+/* .container {
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.box1 {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(245, 167, 23);
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.box4 {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+}
+
+.box5 {
+  width: 100px;
+  height: 200px;
+  background-color: rgb(245, 167, 23);
+  position: relative;
+  bottom: 100px;
+}
+
+.box6 {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.box7 {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.box8 {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  bottom: 100px;
+  position: relative;
+  bottom: 100px;
+}
+
+.box9 {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  position: relative;
+  bottom: 100px;
+}
+
+.box10 {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  position: relative;
+  bottom: 100px;
+} */
+
+.container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.box {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.flex-1 {
+  display: flex;
+  gap: 5px;
+}
+
+.box1 {
+  background-color: rgb(245, 167, 23);
+  width: 200px;
+}
+
+.box2 {
+  background-color: aquamarine;
+  width: 115px;
+}
+
+.flex-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.box3 {
+  background-color: aquamarine;
+}
+
+.box4 {
+  background-color: rgb(245, 167, 23);
+  height: 200px;
+}
+
+.box5 {
+  background-color: aquamarine;
+}
+
+.flex-3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 230px;
+  gap: 5px;
+}
+
+.box6 {
+  background-color: pink;
+  width: 215px;
+  height: 200px;
+}
+
+.box7,
+.box8,
+.box9,
+.box10 {
+  background-color: aquamarine;
+}
+
+.flex-4 {
+  display: flex;
+  gap: 5px;
+}
